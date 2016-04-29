@@ -1,0 +1,6 @@
+[Unit]
+Description=Full Backup to CHESS
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/system_backup.sh
