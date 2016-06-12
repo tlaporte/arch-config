@@ -10,4 +10,5 @@ alias ll='ls -la'
 PS1='[\u@\h \W]\$ '
 export VISUAL=vim
 export EDITOR=vim
-export TERMINAL=konsole
+export TERMINAL=urxvt
+export TERM=xterm
