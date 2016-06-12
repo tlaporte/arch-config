@@ -8,3 +8,6 @@
 alias ls='ls --color=auto'
 alias ll='ls -la'
 PS1='[\u@\h \W]\$ '
+export VISUAL=vim
+export EDITOR=vim
+export TERMINAL=konsole
