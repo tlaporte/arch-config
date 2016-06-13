@@ -180,9 +180,15 @@ assign [class="Firefox"] 1
 
 assign [class="Steam"] 3
 
+assign [class="Kodi"] 5
+
+assign [class="makemkv"] 6
+
 #startup
 exec "compton --backend glx --vsync opengl -b"
 exec "firefox"
 exec "slack"
 exec "teamspeak3"
 exec "steam"
+exec "makemkv"
+exec --no-startup-id i3-msg "workspace 6; exec urxvt -e ranger /CHESS/New Rips/; workspace 1"
