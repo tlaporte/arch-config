@@ -178,12 +178,12 @@ assign [class="TeamSpeak 3"] 2
 
 assign [class="Firefox"] 1
 
-assign [class="Steam"] 3
+assign [class="Kodi"] 3
+assign [class="Google Play Music Desktop Player"] 3
 
-assign [class="Kodi"] 5
-assign [class="Google Play Music Desktop Player"] 5
+assign [class="makemkv"] 5
 
-assign [class="makemkv"] 6
+assign [class="Virt-manager"] 4
 
 #startup
 exec "compton --backend glx --vsync opengl -b"
